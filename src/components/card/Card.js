@@ -14,7 +14,7 @@ const PokeCard = ({name, sprites, types}) => {
     <Card style={styles.card}>
       <Card.Title title={name} />
       <Card.Content>
-        <Paragraph>Type: {types[0]?.type.name}</Paragraph>
+        <Paragraph>Types: {types[0]?.type.name}</Paragraph>
       </Card.Content>
       <Card.Cover
         style={{
